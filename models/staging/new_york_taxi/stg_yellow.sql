@@ -4,7 +4,7 @@ with trips as (
 ),
 
 final as (
-    select *,
+    select *
     from trips
 )
 

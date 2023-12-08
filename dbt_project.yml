@@ -12,3 +12,7 @@ profile: 'default'
 dbt-cloud: 
     project-id: 323509
 
+models:
+  submission_method: all_purpose_cluster
+  create_notebook: false
+  cluster_id: 1207-155539-pwaqevhw

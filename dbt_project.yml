@@ -15,4 +15,4 @@ dbt-cloud:
 models:
   submission_method: all_purpose_cluster
   create_notebook: false
-  cluster_id: 1207-155539-pwaqevhw
+  cluster_id: 0516-092422-n2fl53zl

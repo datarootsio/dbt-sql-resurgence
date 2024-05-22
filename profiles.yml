@@ -1,0 +1,10 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      catalog: main
+      schema: dbt_core
+      host: adb-5480714309744665.5.azuredatabricks.net
+      http_path: /sql/1.0/warehouses/57dadf148c05b6b7
+      token: "{{ env_var('DATABRICKS_AAD_TOKEN') }}"
